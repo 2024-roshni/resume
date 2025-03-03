@@ -20,29 +20,59 @@ Contact us
 </tr>
 <tr>
 <td>
-First name: 
+Name
 </td>
 <td>
-<input type="text" name="First_name"/>
+<input type="text" name="name">
+</tr>
+
+<tr>
+<td>
+Gender
+</td>
+<td>
+<input type="radio" name="gender" value="male" checked>Male
+<input type="radio" name="gender" value="female" >Female
+</td>
+</tr>
+
+<tr>
+<td>
+City
+</td>
+<td>
+<select name="dropdown" size="1" multiple>
+<option value="multan" selected>Multan</option>
+<option value="lahore" >Lahore</option>
+<option value="islamabad">Islamabad</option>
+<option value="karachi">Karachi</option>
+<option value="sadiqabad">Sadiqabad</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>
+Hobbies
+</td>
+<td>
+<select name="dropdown" size="1" multiple>
+<option value="programming" selected>programming</option>
+<option value="reading" >Reading</option>
+<option value="collecting">Collecting</option>
+</select>
 </td>
 </tr>
 <tr>
-<td>
-Last name: 
-</td>
-<td>
-<input type="text" name="Last_name"/>
-</td>
-</tr>
-<tr>
-<td>
+ <td>
 Email: 
 </td>
 <td>
 <input type="text" name="email"/>
 </td>
 </tr>
-<tr>
+
+ <tr>
 <td>
 Phone no:
 </td>
@@ -50,16 +80,31 @@ Phone no:
  <input type="text" name="phone"/>
 </td>
 </tr>
+ 
+<tr>
+<td>
+Message
+</td>
+<td>
+Description:<br>
+<textarea rows="5" cols="50" name="description">
+Enter description here...
+</textarea>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" style="text-align:center;">
+<input type="submit" name="submit" value="submit" align="center"/>
+<input type="reset" name="reset" value="reset"/>
+</td>
+</tr>
+</form>
+
+
 </form>
 </table>
-<br>
-What do you have in mind?
-<br>
-<form>
-<textarea rows="5" cols="50" name="description">
-Please enter here...
-</textarea>
-</form>
+
 
 <br>
 <form>
